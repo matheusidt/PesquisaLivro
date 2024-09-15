@@ -1,0 +1,127 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+nav{
+    padding-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;  
+    align-items: center;
+    gap: 10px; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    gap: 30px;
+}
+
+nav a:hover{
+    color: rgb(5, 112, 131);
+}
+
+
+form {
+    margin: 20px;
+}
+
+.input{
+    width: 500px;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    border-color: black;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.button{
+    background: #0000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    padding: 10px;
+}
+
+.search-svg{
+    width: 30px;
+    height: 30px;
+}
+
+.input:focus {
+    border-color: #000;
+    outline: none;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    font-size: 30px;
+
+}
+
+.book-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 32px;
+    margin-left: 10px;
+}
+
+#nvtog-img{
+    width: 215px;
+    height: 294.5px;
+}
+
+#pfsok-img{
+    width: 215px;
+    height: 294.5px;
+}
+
+.title-book{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.title-book:hover{
+    color: rgb(5, 112, 131);
+
+}
+
+.writter-book{
+    margin-top: 3px;
+}
+
+.img-book{
+    transition: transform 0.3s ease;
+}
+
+.img-book:hover{
+    transform: scale(1.03);
+}
